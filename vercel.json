@@ -3,7 +3,8 @@
     {
       "source": "/(.*)",
       "destination": "https://manta-bridge.org/$1",
-      "permanent": true
+      "permanent": false,
+      "statusCode": 301
     }
   ]
 }
